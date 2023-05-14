@@ -1,106 +1,174 @@
 .comment {
-	padding: 48px 0;
+    padding: 48px 0;
 }
 
 .comment__title {
-	margin: 0;
-	margin-bottom: 24px;
-	font-weight: 800;
-	font-size: 32px;
-	line-height: 125%;
-	color: #0f1826;
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 125%;
+    color: #0f1826;
+}
+
+
+.dark .comment__title {
+    color: #fff;
 }
 
 .comment__text {
-	margin: 0;
-	margin-bottom: 52px;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 150%;
-	color: #607987;
+    margin: 0;
+    margin-bottom: 52px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #607987;
+}
+
+
+.dark .comment__text {
+    color: #fff;
 }
 
 .comment__list {
-	display: flex;
-	justify-content: space-between;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .comment__item {
-	position: relative;
-	width: 224px;
-	height: 396px;
-	border-radius: 22px;
+    position: relative;
+    width: 224px;
+    height: 396px;
+    border-radius: 22px;
 }
 
 .comment__item-btn1,
 .comment__item-btn2,
 .comment__item-btn3,
 .comment__item-btn4 {
-	// position: absolute;
-	// top: 12px;
-	// left: 12px;
-	width: 100%;
-	max-width: 128px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 6px 8px 6px 6px;
-	border: none;
-	background-color: #ffffff;
-	border-radius: 100px;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 183%;
-	color: #000000;
-	cursor: pointer;
-	z-index: 2;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 100%;
+    max-width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 8px 6px 6px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 183%;
+    color: #000000;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.dark .comment__item-btn1,
+.comment__item-btn2,
+.comment__item-btn3,
+.comment__item-btn4 {
+    background-color: #0f1826;
+    color: #fff;
 }
 
 .comment__item-video1,
 .comment__item-video2,
 .comment__item-video3,
 .comment__item-video4 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	border-radius: 22px;
-	z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 22px;
+    z-index: -1;
 }
 
 .comment__item-textwrapper {
-	position: absolute;
-	bottom: 19px;
-	left: 23px;
+    position: absolute;
+    bottom: 19px;
+    left: 23px;
 }
 
 .comment__item-date {
-	margin-bottom: 7px;
-	display: block;
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 183%;
-	letter-spacing: -0.24px;
-	color: #ffffff;
+    margin-bottom: 7px;
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 183%;
+    letter-spacing: -0.24px;
+    color: #ffffff;
 }
 
 .comment__item-text {
-	margin-bottom: 6px;
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 183%;
-	letter-spacing: -0.24px;
-	color: #7cd1ac;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 183%;
+    letter-spacing: -0.24px;
+    color: #7cd1ac;
 }
 
 .comment__item-title {
-	margin: 0;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 150%;
-	color: #ffffff;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.comment__item-btnPause1,
+.comment__item-btnPause2,
+.comment__item-btnPause3,
+.comment__item-btnPause4 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 100%;
+    max-width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 8px 6px 6px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 183%;
+    color: #000000;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+
+.dark .comment__item-btnPause1,
+.comment__item-btnPause2,
+.comment__item-btnPause3,
+.comment__item-btnPause4 {
+    background-color: #0f1826;
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    .comment__list {
+        text-align: center !important;
+    }
+
+    .comment__item {
+        margin: 0px auto !important;
+    }
+
+    // .slick-slide,
+    // .slick-current,
+    // .slick-active {
+    //     // width: 285px !important;
+    //     margin: 0 auto !important;
+    // }
 }

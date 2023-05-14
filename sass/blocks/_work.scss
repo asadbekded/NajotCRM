@@ -11,6 +11,10 @@
 	color: #0f1826;
 }
 
+.dark .work__title {
+	color: #fff;
+}
+
 .work__text {
 	margin: 0;
 	margin-bottom: 48px;
@@ -18,6 +22,10 @@
 	font-size: 16px;
 	line-height: 150%;
 	color: #607987;
+}
+
+.dark .work__text {
+	color: #fff;
 }
 
 .work__list {
@@ -42,6 +50,7 @@
 	&:hover {
 		background-color: #fff;
 		box-shadow: 0 2px 18px 3px rgba(0, 0, 0, 0.05);
+
 		.work__item-image {
 			fill: rgba(0, 0, 0, 0.05);
 		}
@@ -128,6 +137,7 @@
 		font-size: 14px;
 		line-height: 171%;
 	}
+
 	.work__list {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1f 1fr 1fr 1fr 1fr 1fr 1fr;

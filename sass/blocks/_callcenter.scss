@@ -6,6 +6,7 @@
 .callCenter__inner {
     display: flex;
     align-items: stretch;
+
 }
 
 .callCenter__right {
@@ -15,9 +16,18 @@
 }
 
 .callCenter__box {
-    padding: 45px;
-    background: #FFFFFF;
+    padding: 32px;
+    background-color: #FFFFFF;
     border-radius: 16px;
+}
+
+.dark .callCenter__right {
+    background-color: #3B4C54FF !important;
+}
+
+
+.dark .callCenter__right .callCenter__box {
+    background-color: #021923 !important;
 }
 
 .callCenter__title {
@@ -26,6 +36,10 @@
     line-height: 40px;
     color: #0F1826;
     margin: 0 0 16px 0;
+}
+
+.dark .callCenter__title {
+    color: #fff;
 }
 
 .callCenter__span {
@@ -55,6 +69,10 @@
     margin-bottom: 6px;
 }
 
+.dark .form__label {
+    color: #BA8D5BFF;
+}
+
 .form__inp {
     padding: 14px 17px;
     max-width: 368px;
@@ -81,6 +99,15 @@
     color: #000000;
 }
 
+
+.dark .callCenter__formText {
+    color: #fff;
+}
+
+.dark .callCenter__text {
+    color: #fff;
+}
+
 .callCenter__mark {
     font-weight: 600;
     font-size: 14px;
@@ -100,6 +127,10 @@
     border-radius: 100px;
     outline: none;
     border: none;
+}
+
+.callCenter__img {
+    border-radius: 15px 0px 0 15px;
 }
 
 
@@ -126,5 +157,11 @@
 
     .form__btn {
         padding: 8px 0;
+    }
+
+    .callCenter__box {
+        padding: 45px;
+        background-color: #FFFFFF;
+        border-radius: 16px;
     }
 }
