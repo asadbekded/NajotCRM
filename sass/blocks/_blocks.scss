@@ -1,8 +1,11 @@
-@import "visually-hidden";
-@import "container";
-@import "header";
+@import 'visually-hidden';
+@import 'container';
+@import 'header';
+@import './advantage';
+@import './courses';
+@import './work';
+@import './comment';
 
-
-// kurslar page start 
-@import "./kurslar";
-// kurslar page end 
+// kurslar page start
+@import './kurslar';
+// kurslar page end
