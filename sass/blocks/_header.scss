@@ -3,6 +3,10 @@ header {
     background: #F1F0EE;
 }
 
+.dark header {
+    background-color: #0F1826;
+}
+
 .header__navs {
     display: none;
 }
@@ -35,6 +39,10 @@ header {
     &:hover {
         border-bottom: 1px solid;
     }
+}
+
+.dark .nav__link {
+    color: #fff;
 }
 
 .login {
@@ -99,7 +107,7 @@ header {
     }
 
     .login {
-        padding: 7px 21px !important;
+        padding: 7px 18px !important;
         font-weight: 500;
         font-size: 14px;
         line-height: 22px;
@@ -187,4 +195,8 @@ header {
         border-bottom: 1px solid transparent;
         transition: all 0.3s ease;
     }
+}
+
+body.dark{
+    background-color: #1E1E1E;
 }
