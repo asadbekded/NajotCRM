@@ -1,0 +1,246 @@
+.master-btn__content{
+    margin-top: 32px;
+}
+.master-hero__btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    background: #BA8D5B;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+}
+.master__btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #000000b3;
+    padding: 16px 26px;
+    background: #F7F7F5;
+    border-radius: 32px;
+    border: none;
+    margin-right: 16px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    &:hover{
+        background-color: #fff;
+        color: #0f1826;
+        border: 1px solid #ba8d5b;
+    }
+    &:active{
+        background: #BA8D5B;
+        color: #FFFFFF;
+    }
+}
+
+.grid__container{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid__item{
+    width: 100%;
+    max-width: 342px;
+    margin-bottom: 48px;
+    padding: 8px;
+    border-radius: 12px;
+    transition: box-shadow .3s ease;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0 2px 16px 3px #0000001a;
+    }
+    &:nth-child(2){
+        .competition-img__box{
+            background-image: url("../../images/jahongir.png");
+        }
+    }
+    &:nth-child(3){
+        .competition-img__box{
+            background-image: url("../../images/marketing.png");
+        }
+    }
+    &:nth-child(4){
+        .competition-img__box{
+            background-image: url("../../images/algoritm.png");
+        }
+    }
+    &:nth-child(5){
+        .competition-img__box{
+            background-image: url("../../images/otabek.png");
+        }
+    }
+    &:nth-child(6){
+        .competition-img__box{
+            background-image: url("../../images/team-jamoasi.png");
+        }
+    }
+}
+.competition-img__box{
+    padding: 8px 0px 0px 8px;
+    border-radius: 15px;
+    background-image: url("../../images/temurbek.png");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 182px;
+    margin-bottom: 26px;
+}
+.competition__btn{
+    padding: 5px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px #000000;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    &:hover{
+        box-shadow: 0px 0px 2px #ba8d5b;
+    }
+}
+.competition__box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &::before{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-image: url('../../images/eye.svg');
+        top: 12%;
+        right: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        content: '';
+    }
+}
+.competition__spn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.28px;
+    color: #00000059;
+}
+.competition__ins{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.28px;
+    color: #00000059;
+}
+.competition__text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin: 14px 0px 14px 0px;
+}
+.competition__smm{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00000080;
+}
+
+.competition-add__btn{
+    display: block;
+    padding: 13px 45px;
+    margin: 0px auto;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #BA8D5B;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    &:hover{
+        background-color: #fff;
+        color: #0f1826;
+        border: 1px solid #ba8d5b;
+    }
+    &:active{
+        background: #BA8D5B;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 1075px){
+    .master-hero__btn{
+        margin-bottom: 24px;
+    }
+    .grid__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .grid__item{
+        margin: 0px auto;
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .master-hero__btn{
+        margin-bottom: 24px;
+    }
+    .master__btn{
+        margin-bottom: 24px;
+    }
+    .grid__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .grid__item{
+        max-width: 400px;
+        margin: 0px auto;
+        margin-bottom: 25px;
+        
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .grid__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .grid__item{
+        max-width: 100%;
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+    .competition__text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .competition__smm{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .competition-add__btn{
+        padding: 13px 34px;
+    }
+}
