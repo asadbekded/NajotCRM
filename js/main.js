@@ -61,7 +61,7 @@ playBtn1.addEventListener('click', function () {
     fourthVideo.pause();
     playBtn1.style.display = 'none';
     pauseBtn1.style.display = 'flex';
-    pauseBtn1.style.opacity="1"
+    pauseBtn1.style.opacity = "1"
 });
 
 pauseBtn1.addEventListener('click', function () {
@@ -77,7 +77,7 @@ playBtn2.addEventListener('click', function () {
     fourthVideo.pause();
     playBtn2.style.display = 'none';
     pauseBtn2.style.display = 'flex';
-    pauseBtn2.style.opacity="1"
+    pauseBtn2.style.opacity = "1"
 
 });
 
@@ -94,7 +94,7 @@ playBtn3.addEventListener('click', function () {
     fourthVideo.pause();
     playBtn3.style.display = 'none';
     pauseBtn3.style.display = 'flex';
-    pauseBtn3.style.opacity="10"
+    pauseBtn3.style.opacity = "10"
 
 });
 
@@ -111,7 +111,7 @@ playBtn4.addEventListener('click', function () {
     thirdVideo.pause();
     playBtn4.style.display = 'none';
     pauseBtn4.style.display = 'flex';
-    pauseBtn4.style.opacity="10"
+    pauseBtn4.style.opacity = "10"
 
 });
 
