@@ -5,13 +5,13 @@
 
 .callCenter__inner {
     display: flex;
-    align-items: center;
+    align-items: stretch;
 }
 
 .callCenter__right {
-    padding: 32px 126px 32px 32px;
+    padding: 15px 126px 30px 32px;
     background: #F9F8F7;
-    border-radius: 20px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .callCenter__box {
@@ -43,10 +43,6 @@
     line-height: 24px;
     color: #607987;
     margin: 0 0 32px 0;
-}
-
-.form {
-    margin-bottom: 32px;
 }
 
 .form__label {
@@ -90,4 +86,45 @@
     font-size: 14px;
     line-height: 20px;
     color: #BA8D5B;
+}
+
+.form__btn {
+    padding: 12px 0;
+    max-width: 368px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #BA8D5B;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+}
+
+
+@media only screen and (max-width: 1045px) {
+    .callCenter__img {
+        display: none;
+    }
+
+    .callCenter__right {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .callCenter__title {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .callCenter__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .form__btn {
+        padding: 8px 0;
+    }
 }
