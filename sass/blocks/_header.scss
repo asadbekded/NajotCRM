@@ -1,6 +1,9 @@
 header {
     padding: 20px 0;
     background: #F1F0EE;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .dark header {
@@ -197,6 +200,6 @@ header {
     }
 }
 
-body.dark{
+body.dark {
     background-color: #1E1E1E;
 }
