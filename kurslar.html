@@ -19,26 +19,67 @@
     <main>
         <section class="course__section">
             <div class="container">
-                <div class="course__content">
-                    <div class="course__box">
-                        <h1 class="course__title">Barcha o'quv kurslari</h1>
-                        <button class="course__btn" type="button">Barchasi</button>
-                        <button class="programming__btn" type="button">Dasturlash</button>
-                    </div>
-                    
-                    <input type="search" placeholder="Izlash">
+                <div class="course__home">
+                    <a class="home__link" href="./index.html">Bosh sahifa</a>
+                    <a class="course__link" href="./kurslar.html">Kurslar</a>
                 </div>
+                <div class="course__content">
+                    <h1 class="course__title">Barcha o'quv kurslari</h1>
+                    
+                    <div class="inp__box">
+                        <input class="course__inp" type="search" placeholder="Izlash">
+                    </div>
+                </div>
+                <button class="course__btn" type="button">Barchasi</button>
+                        <button class="programming__btn" type="button">Dasturlash</button>
+            </div>
+        </section>
+        
+        <section class="lesson__section">
+            <div class="container">
+                <ul class="lesson__list">
+                    <li class="lesson__item">
+                        <img class="lesson__img" src="./images/foundation.png" alt="lesson foundation course" width="208" height="208">
+                        <div class="lesson-card__top">
+                            <h2 class="lesson__title">Dasturlash foundation</h2>
+                            <button class="lesson__btn">Dasturlash</button>
+                        </div>
+                        <p class="lesson__text">Foundation dasturlash kursida C va Python
+                            dasturlash tillari va ular orqali dasturlashning
+                            mantiq-mohiyati o'rgatiladi. Kurs davomida
+                            dasturlashning fundamental tushunchalari,
+                            dasturchining ishini yengillashtirib beradigan
+                        </p>
+                        <span class="lesson__spn">Davomiylik: 19 soat 24 daqiqa</span>
+                        <span class="lesson__num">Darslar soni: 126 ta</span>
+                    </li>
+                    <li class="lesson__item">
+                        <img class="lesson__img" src="./images/net-course.png" alt="lesson foundation course" width="208" height="208">
+                        <div class="lesson-card__top">
+                            <h2 class="lesson__title">.NET mutaxassislik kursi</h2>
+                            <button class="lesson__btn">Dasturlash</button>
+                        </div>
+                        <p class="lesson__text">.NET mutaxassislik kursi yordamida universal
+                            C# dasturlash tilida ishlovchi va o'z faoliyatida
+                            .NET platformasi va texnologiyalaridan
+                            foydalanuvchi dasturchiga aylaning. C#
+                            dasturlash tilining imkoniyatlari va qo'llash
+                        </p>
+                        <span class="lesson__num">Darslar soni: 93 ta</span>
+                        <span class="lesson__spn">Davomiylik: 23 soat 7 daqiqa</span>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
     <!-- main end  -->
-    
+                
     <!-- footer start  -->
-    <footer>
+     <footer>
     </footer>
     <!-- footer end  -->
-    
-    <script src="./js/main.js"></script>
-</body>
-
-</html>
+                
+                <script src="./js/main.js"></script>
+            </body>
+            
+            </html>
