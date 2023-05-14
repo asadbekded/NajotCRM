@@ -1,4 +1,23 @@
 .container {
+
+	width: 100%;
+	max-width: 1180px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+	.container {
+		padding: 0 32px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.container {
+		padding: 0 16px;
+	}
+}
+
     width: 100%;
     max-width: 1180px;
     padding: 0px 20px;
@@ -17,3 +36,4 @@
         padding: 0 16px;
     }
 }
+
