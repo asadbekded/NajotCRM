@@ -1,0 +1,39 @@
+.course__content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.course__title{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -0.64px;
+    color: #0F1826;
+    margin: 0px 0px 24px;
+}
+.course__btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 26px;
+    background: #BA8D5B;
+    border-radius: 32px;
+    border: none;
+}
+.programming__btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #000000b3;
+    padding: 16px 26px;
+    background: #F7F7F5;
+    border-radius: 32px;
+    border: none;
+    margin-left: 16px;
+}
