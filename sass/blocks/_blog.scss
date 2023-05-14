@@ -41,6 +41,15 @@
     }
 }
 
+.dark .master__btn {
+    color: #fff;
+    background-color: #021923;
+    &:active{
+        background: #BA8D5B;
+        color: #FFFFFF;
+    }
+}
+
 .grid__container{
     list-style: none;
     padding: 0px;
@@ -144,6 +153,18 @@
     line-height: 17px;
     letter-spacing: -0.28px;
     color: #00000059;
+}
+.dark .competition__ins{
+    color: #fff;
+}
+.dark .competition__spn{
+    color: #fff;
+}
+.dark .competition__text{
+    color: #fff;
+}
+.dark .competition__smm{
+    color: #fff;
 }
 .competition__text{
     font-weight: 700;

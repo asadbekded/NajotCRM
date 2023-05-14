@@ -1,5 +1,6 @@
 .course__home{
     position: relative;
+    margin-top: 32px;
     &::before{
         position: absolute;
         width: 12px;
@@ -42,6 +43,9 @@
     color: #0F1826;
     margin: 0px;
 }
+.dark .course__title {
+    color: #fff;
+}
 .course__btn{
     font-weight: 600;
     font-size: 14px;
@@ -74,6 +78,10 @@
         background-color: #fff;
         color: #0f1826;
         border: 1px solid #ba8d5b;
+    }
+    &:active{
+        background: #BA8D5B;
+        color: #FFFFFF;
     }
 }
 .inp__box{
@@ -174,6 +182,11 @@
         box-shadow: 0 2px 16px 3px #0000001a;
     }
 }
+
+.dark .lesson__item {
+    background-color: #021923;
+}
+
 .lesson-card__top{
     display: flex;
     align-items: center;
@@ -220,6 +233,9 @@
     color: #000000;
     margin: 0px;
 }
+.dark .lesson__title{
+    color: #fff;
+}
 .lesson__text{
     font-weight: 500;
     font-size: 14px;
@@ -227,6 +243,10 @@
     align-items: center;
     letter-spacing: -0.28px;
     color: rgba(0, 0, 0, 0.7);
+}
+
+.dark .lesson__text{
+    color: #fff;
 }
 
 @media only screen and (max-width: 1024px) {
