@@ -1,4 +1,4 @@
-.hero__section{
+.hero__section {
     padding-top: 100px;
     padding-bottom: 70px;
     background: #F1F0EE;
@@ -7,10 +7,12 @@
     background-size: auto;
     background-position: right bottom;
 }
+
 .dark .hero__section {
     background-color: #1E1E1E;
 }
-.hero__title{
+
+.hero__title {
     font-weight: 700;
     font-size: 40px;
     line-height: 56px;
@@ -18,17 +20,20 @@
     color: #000000;
     margin: 0px;
 }
+
 .dark .hero__title {
     color: #fff;
 }
-.hero__spn{
+
+.hero__spn {
     font-weight: 700;
     font-size: 40px;
     line-height: 56px;
     letter-spacing: -0.8px;
     color: #BA8D5B;
 }
-.hero__text{
+
+.hero__text {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -36,16 +41,19 @@
     color: #607987;
     margin: 0px;
 }
+
 .dark .hero__text {
     color: #fff;
 }
-.hero__box{
+
+.hero__box {
     width: 100%;
     max-width: 325px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
-.hero__btn{
+
+.hero__btn {
     display: block;
     padding: 13px 45px;
     font-weight: 700;
@@ -59,19 +67,21 @@
     cursor: pointer;
     border: 1px solid transparent;
     transition: all .3s ease;
-    &:hover{
+
+    &:hover {
         background-color: #fff;
         color: #0f1826;
         border: 1px solid #ba8d5b;
     }
-    &:active{
+
+    &:active {
         background: #BA8D5B;
         color: #FFFFFF;
     }
 }
 
-@media only screen and (max-width: 1250px){
-    .hero__section{
+@media only screen and (max-width: 1250px) {
+    .hero__section {
         padding-top: 100px;
         padding-bottom: 70px;
         background: #F1F0EE;
@@ -82,8 +92,8 @@
     }
 }
 
-@media only screen and (max-width: 1090px){
-    .hero__section{
+@media only screen and (max-width: 1090px) {
+    .hero__section {
         padding-top: 100px;
         padding-bottom: 70px;
         background: #F1F0EE;
@@ -94,8 +104,8 @@
     }
 }
 
-@media only screen and (max-width: 850px){
-    .hero__section{
+@media only screen and (max-width: 850px) {
+    .hero__section {
         padding-top: 100px;
         padding-bottom: 70px;
         background: #F1F0EE;
@@ -105,8 +115,9 @@
         background-position: 130% bottom;
     }
 }
-@media only screen and (max-width: 730px){
-    .hero__section{
+
+@media only screen and (max-width: 730px) {
+    .hero__section {
         padding-top: 100px;
         padding-bottom: 70px;
         background: #F1F0EE;
@@ -117,8 +128,8 @@
     }
 }
 
-@media only screen and (max-width: 470px){
-    .hero__section{
+@media only screen and (max-width: 470px) {
+    .hero__section {
         padding-top: 100px;
         padding-bottom: 70px;
         background: #F1F0EE;
@@ -127,19 +138,23 @@
         background-size: 0;
         background-position: 130% bottom;
     }
-    .hero__title{
+
+    .hero__title {
         font-size: 24px;
         line-height: 36px;
     }
-    .hero__spn{
+
+    .hero__spn {
         font-size: 24px;
         line-height: 36px;
     }
-    .hero__text{
+
+    .hero__text {
         font-size: 14px;
         line-height: 20px;
     }
-    .hero__btn{
+
+    .hero__btn {
         display: block;
         padding: 8px 34px;
         font-weight: 700;
@@ -153,12 +168,14 @@
         cursor: pointer;
         border: 1px solid transparent;
         transition: all .3s ease;
-        &:hover{
+
+        &:hover {
             background-color: #fff;
             color: #0f1826;
             border: 1px solid #ba8d5b;
         }
-        &:active{
+
+        &:active {
             background: #BA8D5B;
             color: #FFFFFF;
         }

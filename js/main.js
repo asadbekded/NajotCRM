@@ -22,18 +22,18 @@ modeBtn.addEventListener('click', function () {
     setTheme.classList.toggle("dark");
 
     var theme;
-     if(setTheme.classList.contains("dark")){
+    if (setTheme.classList.contains("dark")) {
         theme = "Dark"
         console.log('Dark mode');
-     }else{
+    } else {
         theme = "Light"
         console.log('Light mode');
-     }
+    }
 
     localStorage.setItem('Theme', JSON.stringify(theme))
 })
 let GetTheme = JSON.parse(localStorage.getItem('Theme'));
-if(GetTheme === 'Dark'){
+if (GetTheme === 'Dark') {
     document.body.classList = 'dark'
 }
 
