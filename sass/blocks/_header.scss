@@ -1,8 +1,186 @@
 header {
     padding: 20px 0;
+    background: #F1F0EE;
 }
 
 .header__inner {
     display: flex;
     align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav {
+    margin-left: auto;
+}
+
+.nav__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-bottom: 1px solid;
+    }
+}
+
+.login {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    padding: 11px 50px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: #F1F0EE;
+        border: 1px solid #BD8F5B;
+        border-radius: 100px;
+    }
+
+    &:active {
+        background: #BD8F5B;
+        color: #fff;
+    }
+}
+
+.header__dark__btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 12px 8px 12px;
+    background: #fff;
+    border-radius: 100px;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+
+    &:hover {
+        opacity: 10;
+    }
+
+    &:active .moon {
+        fill: #fff;
+    }
+
+    &:active {
+        background: #BD8F5B;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .header__navs {
+        display: block;
+    }
+
+    .nav__item {
+        display: none;
+    }
+
+    .login-item {
+        display: block !important;
+        margin-right: 16px;
+    }
+
+    .login {
+        padding: 7px 21px !important;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* Гамбургер иконка */
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+    }
+
+    .menu-btn .bar {
+        width: 30px;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 4px;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu-btn .bar:nth-of-type(2) {
+        top: calc(50% - 9px);
+    }
+
+    .menu-btn .bar:nth-of-type(3) {
+        top: calc(50% + 9px);
+    }
+
+    /* Меняем гамбургер иконку, когда меню открыто */
+    .menu-btn.active .bar:nth-of-type(1) {
+        display: none;
+        background-color: white;
+    }
+
+    .menu-btn.active .bar:nth-of-type(2) {
+        top: 50%;
+        background-color: white;
+        transform: translate(-50%, 0%) rotate(45deg);
+    }
+
+    .menu-btn.active .bar:nth-of-type(3) {
+        top: 50%;
+        background-color: white;
+        transform: translate(-50%, 0%) rotate(-45deg);
+    }
+
+    /* Меню, которое будет появляться */
+    .navs {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.89);
+        transform: translateX(100%);
+        transition: transform 0.5s;
+    }
+
+    .navs.active {
+        transform: translateX(0);
+    }
+
+    .navs .nav__list_item {
+        list-style-type: none;
+    }
+
+    .nav__list_items {
+        margin-bottom: 30px;
+    }
+
+    .nav__list_items>.nav__links {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        color: #fff;
+        border-bottom: 1px solid transparent;
+        transition: all 0.3s ease;
+    }
 }
