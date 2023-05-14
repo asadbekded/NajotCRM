@@ -1,0 +1,140 @@
+.work {
+	padding: 48px 0;
+}
+
+.work__title {
+	margin: 0;
+	margin-bottom: 24px;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 125%;
+	color: #0f1826;
+}
+
+.work__text {
+	margin: 0;
+	margin-bottom: 48px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 150%;
+	color: #607987;
+}
+
+.work__list {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1f 1fr 1fr;
+	gap: 31px;
+	list-style-type: none;
+}
+
+.work__item {
+	width: 160px;
+	height: 100px;
+	padding: 16px 12px;
+	background-color: #f9f8f7;
+	border-radius: 8px;
+	transition: 0.2s ease all;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #fff;
+		box-shadow: 0 2px 18px 3px rgba(0, 0, 0, 0.05);
+		.work__item-image {
+			fill: rgba(0, 0, 0, 0.05);
+		}
+	}
+}
+
+.work__arrows-wrapper {
+	margin-top: 28px;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.work__arrows-btn {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 50%;
+	background-color: #e7e2dd;
+	cursor: pointer;
+}
+
+.work__arrows-btn--active {
+	margin-right: 29px;
+	transform: rotate(-180deg);
+}
+
+.work__arrows-dots {
+	display: block;
+	width: 8px;
+	height: 8px;
+	margin-right: 8px;
+	border-radius: 50%;
+	background-color: #000000;
+	opacity: 0.2;
+}
+
+.work__arrows-dots--active {
+	background-color: #ba8d5b;
+	opacity: 1;
+}
+
+.end-btn {
+	margin-left: 21px;
+}
+
+@media only screen and (max-width: 1160px) {
+	.work__list {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1f 1fr 1fr 1fr;
+		gap: 31px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.work__list {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1f 1fr 1fr 1fr 1fr;
+		gap: 31px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.work__list {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1f 1fr 1fr 1fr 1fr 1fr;
+		gap: 20px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.work__title {
+		margin-bottom: 16px;
+		font-size: 28px;
+		line-height: 114%;
+		color: #0f1826;
+	}
+
+	.work__text {
+		margin-bottom: 56px;
+		font-size: 14px;
+		line-height: 171%;
+	}
+	.work__list {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1f 1fr 1fr 1fr 1fr 1fr 1fr;
+		gap: 20px;
+	}
+
+	.work__arrows-wrapper {
+		display: flex;
+	}
+}

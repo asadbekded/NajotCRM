@@ -1,14 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./slick/slick.css" />
+		<link rel="stylesheet" href="./slick/slick-theme.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Najot Ta'lim</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Najot Ta'lim</title>
-</head>
+	<body>
+		<!-- header start  -->
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a class="header__link" href="#">
+						<img
+							class="header__img"
+							src="./images/logo.svg"
+							alt="header-img"
+							width="214"
+							height="46"
+						/>
+					</a>
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a class="nav__link" href="#"> Kurslar </a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#"> Blog </a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#"> Kirish </a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- main start  -->
+		<main>
+			<section class="advantage">
+				<div class="container">
+					<div class="advantage__inner">
+						<h2 class="advantage__title">Bizning afzalliklarimiz</h2>
+						<ul class="advantage__list">
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Onlayn akademiya</h3>
+								<p class="advantage__item-text">
+									«Najot Ta’lim» digital academy — bu zamonaviy kasblar
+									o‘qitiladigan onlayn akademiya. Qayerda bo‘lishingizdan qat’i
+									nazar: uydami yo mehmonda, daladami yo safarda — o‘zingizga
+									qulay tarzda va vaqtda bilim olishingiz mumkin, internet va
+									noutbuk bo‘lsa bas.
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">O‘z ishining ustalari</h3>
+								<p class="advantage__item-text">
+									Darslar katta tajribaga ega malakali mutaxassislar tomonidan
+									tayyorlangan. O‘z ishining ustalaridan yanada ishonchli bilim
+									va tajribaga ega bo’lasiz
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Shunchaki kurs emas</h3>
+								<p class="advantage__item-text">
+									Har bir o‘quv kursi shunday ishlab chiqilganki, ularni
+									muvaffaqiyatli yakunlab, siz zamonaviy kasb egasiga
+									aylanishingiz va shu sohada o‘z faoliyatingizni boshlashingiz
+									mumkin. Hammasi o‘z qo‘lingizda.
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Interaktiv darslar</h3>
+								<p class="advantage__item-text">
+									Darslarni o‘zlashtirish davrida sizda savollar tug‘ilishi
+									tabiiy holat. Mentorlarga murojaat qilishingiz, o’zingizni
+									qiziqtirgan savollarizga javob olishingiz va tavsiyalar
+									olishingiz mumkin
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Nazariya va amaliyot</h3>
+								<p class="advantage__item-text">
+									Siz har bir kursda berilgan topshiriqlarni amalga oshirish
+									orqali bilimlaringizni yanada mustahkamlab borasiz
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Mentor kerakmi?</h3>
+								<p class="advantage__item-text">
+									Darslarni o‘zlashtirish davrida sizda savollar tug‘ilishi
+									tabiiy holat. Mentorlarga murojaat qilsangiz, ular sizni
+									qiynayotgan masalalar bo‘yicha yechim topishga yo‘l
+									ko‘rsatadilar.
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Hamjamiyat</h3>
+								<p class="advantage__item-text">
+									Kursni boshlashingiz bilan “Najot Ta’lim” yopiq hamjamiyatiga
+									a’zo bo‘lasiz. Bu yerda siz o‘rganishga va tajriba almashishga
+									tayyor odamlarni uchratasiz va tanishasiz
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Hammamiz insonmiz</h3>
+								<p class="advantage__item-text">
+									O‘qish jarayonida avvalgi o‘tilgan mavzular yoddan
+									ko‘tarilishi, ba’zi mavzularni mustahkamlashga ehtiyoj
+									tug‘ilishi mumkin. Shu bois sizda avvalgi darslarni takroran
+									ko‘rish imkoniyati bor.
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Sertifikat</h3>
+								<p class="advantage__item-text">
+									Kursni muvaffaqiyatli yakunlaganingizdan so‘ng sizga elektron
+									sertifikat taqdim etiladi. Sertifikat sizni bilimingizni oson
+									ko’rsatib beruvchi isbot
+								</p>
+							</li>
+							<li class="advantage__item">
+								<h3 class="advantage__item-title">Tezkor to‘lov</h3>
+								<p class="advantage__item-text">
+									Xaridni eng ommabop to‘lov tizimlari orqali bir zumda amalga
+									oshiring va kursni qo‘lga kiriting. Hammasi onlayn, hammasi
+									zamonaviy, hammasi oson..
+								</p>
+							</li>
+						</ul>
+						<button class="advantage__btn">Ko‘proq</button>
+					</div>
+				</div>
+			</section>
+			<section class="courses">
+				<div class="container">
+					<div class="courses__inner">
+						<h2 class="courses__title">Yo‘nalishlar bo‘yicha kurslar</h2>
+						<p class="courses__text">
+							Zamonaviy sohalardan birini o‘rganing va talabgir kasb egasi
+							bo‘ling!
+						</p>
+						<ul class="courses__list">
+							<li class="courses__item">
+								<h3 class="courses__item-title">Dasturlash foundation</h3>
+								<p class="courses__item-text">Foundation dasturlash kursida</p>
+							</li>
+							<li class="courses__item">
+								<h3 class="courses__item-title">.NET mutaxassislik kursi</h3>
+								<p class="courses__item-text">.NET mutaxassislik kursi</p>
+							</li>
+						</ul>
+						<a class="courses__link" href="./kurslar.html"
+							>Barcha kurslarni ko‘rish</a
+						>
+					</div>
+				</div>
+			</section>
+			<section class="work">
+				<div class="container">
+					<div class="work__inner">
+						<h2 class="work__title">Bitiruvchilarimizning ish joylari:</h2>
+						<p class="work__text">
+							Eng yaxshi bitiruvchilarimiz nufuzli tashkilot va kompaniyalarda
+							faoliyat yuritadi. Zamonaviy kasb egalariga doim va har yerda
+							talab yuqori bo‘ladi.
+						</p>
 
+
+						<ul class="work__list">
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/epam.svg"
+									alt="Logo epam"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/itechart.svg"
+									alt="Logo itech"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/humo.svg"
+									alt="Logo humo"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/agro.svg"
+									alt="Logo Agrobank"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/davr.svg"
+									alt="Logo Davrbank"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/texnomart.svg"
+									alt="Logo texnomart"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/soliq.svg"
+									alt="Logo Soliq uz"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/uzcard.svg"
+									alt="Logo uzcard"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/my-taxi.svg"
+									alt="Logo my taxi"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/mfaktor.svg"
+									alt="Logo M faktor"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/jafton.svg"
+									alt="Logo jafton"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/fido.svg"
+									alt="Logo fido"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/ob.svg"
+									alt="Logo osmondagi bolalar"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/islomuz.svg"
+									alt="Logo Islom uz"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/cambridge.svg"
+									alt="Logo cambridge"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/kunuz.svg"
+									alt="Logo kun uz"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/yoshlar-i.svg"
+									alt="Logo yoshlar ishlari"
+									width="136"
+									height="68"
+								/>
+							</li>
+							<li class="work__item">
+								<img
+									class="work__item-image"
+									src="./images/pcg.svg"
+									alt="Logo psg"
+									width="136"
+									height="68"
+								/>
+							</li>
+						</ul>
+						<div class="work__arrows-wrapper">
+							<button class="work__arrows-btn work__arrows-btn--active">
+								<svg
+									width="12"
+									height="20"
+									viewBox="0 0 12 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_1_7459)">
+										<path
+											d="M1.55554 18.8891L10.4444 10.0002L1.55554 1.11133"
+											stroke="black"
+											stroke-width="2.22222"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_1_7459">
+											<rect
+												width="11.1111"
+												height="20"
+												fill="white"
+												transform="translate(0.444458)"
+											/>
+										</clipPath>
+									</defs>
+								</svg>
+							</button>
+							<span class="work__arrows-dots work__arrows-dots--active"> </span>
+							<span class="work__arrows-dots"></span>
+							<span class="work__arrows-dots"></span>
+							<span class="work__arrows-dots"></span>
+							<span class="work__arrows-dots"></span>
+							<button class="work__arrows-btn end-btn">
+								<svg
+									width="12"
+									height="20"
+									viewBox="0 0 12 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_1_7459)">
+										<path
+											d="M1.55554 18.8891L10.4444 10.0002L1.55554 1.11133"
+											stroke="black"
+											stroke-width="2.22222"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_1_7459">
+											<rect
+												width="11.1111"
+												height="20"
+												fill="white"
+												transform="translate(0.444458)"
+											/>
+										</clipPath>
+									</defs>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="comment">
+				<div class="container">
+					<div class="comment__inner">
+						<h2 class="comment__title">Bitiruvchilarimizdan izohlar</h2>
+						<p class="comment__text">
+							Oʻquv kurslarimiz, ustozlar, qoʻlga kiritilgan bilim va
+							koʻnikmalar, olingan natijalar haqida bitiruvchilarimizdan
+							eshiting hamda ulardan kerakli tavsiyalar oling.
+						</p>
+						<ul class="comment__list">
+							<li class="comment__item">
+								<button class="comment__item-btn1">
+									<svg
+										width="29"
+										height="28"
+										viewBox="0 0 29 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<rect
+											x="0.75"
+											width="28"
+											height="28"
+											rx="14"
+											fill="#BA8D5B"
+										/>
+										<path
+											d="M18.5441 14.5479L11.7154 19.2759C11.6154 19.3451 11.4983 19.3857 11.3768 19.3931C11.2554 19.4005 11.1342 19.3746 11.0264 19.3181C10.9187 19.2615 10.8284 19.1766 10.7655 19.0725C10.7026 18.9683 10.6694 18.8489 10.6694 18.7272V9.27258C10.6694 9.1509 10.7026 9.03151 10.7655 8.92737C10.8284 8.82322 10.9187 8.73828 11.0264 8.68176C11.1342 8.62524 11.2554 8.59928 11.3768 8.60671C11.4983 8.61414 11.6154 8.65467 11.7154 8.72391L18.5441 13.4519C18.6327 13.5133 18.705 13.5952 18.755 13.6906C18.805 13.786 18.8311 13.8922 18.8311 13.9999C18.8311 14.1077 18.805 14.2138 18.755 14.3092C18.705 14.4047 18.6327 14.4866 18.5441 14.5479Z"
+											fill="white"
+										/>
+									</svg>
+									Videoni ko‘rish
+								</button>
+								<button class="comment__item-btnPause1">
+									<svg
+										width="16"
+										height="16"
+										viewBox="0 0 16 16"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M8.00017 1.33301C6.68162 1.33301 5.39269 1.724 4.29636 2.45654C3.20004 3.18909 2.34555 4.23028 1.84097 5.44845C1.33638 6.66663 1.20436 8.00707 1.4616 9.30028C1.71883 10.5935 2.35377 11.7814 3.28612 12.7137C4.21847 13.6461 5.40636 14.281 6.69956 14.5382C7.99277 14.7955 9.33322 14.6635 10.5514 14.1589C11.7696 13.6543 12.8108 12.7998 13.5433 11.7035C14.2758 10.6071 14.6668 9.31822 14.6668 7.99967C14.6668 7.1242 14.4944 6.25729 14.1594 5.44845C13.8243 4.63961 13.3333 3.90469 12.7142 3.28563C12.0952 2.66657 11.3602 2.17551 10.5514 1.84048C9.74255 1.50545 8.87565 1.33301 8.00017 1.33301V1.33301ZM7.3335 10.6663H6.00017V5.33301H7.3335V10.6663ZM10.0002 10.6663H8.66683V5.33301H10.0002V10.6663Z"
+											fill="white"
+										/>
+									</svg>
+								</button>
+								<video
+									class="comment__item-video1"
+									src="./videos/first-video.mp4"
+									width="224"
+									height="396"
+								></video>
+								<div class="comment__item-textwrapper">
+									<span class="comment__item-date">25.01.2023</span>
+									<span class="comment__item-text">SMM-menejer</span>
+									<h3 class="comment__item-title">Abdumannof Tursunov</h3>
+								</div>
+							</li>
+							<li class="comment__item">
+								<button class="comment__item-btn2">
+									<svg
+										width="29"
+										height="28"
+										viewBox="0 0 29 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<rect
+											x="0.75"
+											width="28"
+											height="28"
+											rx="14"
+											fill="#BA8D5B"
+										/>
+										<path
+											d="M18.5441 14.5479L11.7154 19.2759C11.6154 19.3451 11.4983 19.3857 11.3768 19.3931C11.2554 19.4005 11.1342 19.3746 11.0264 19.3181C10.9187 19.2615 10.8284 19.1766 10.7655 19.0725C10.7026 18.9683 10.6694 18.8489 10.6694 18.7272V9.27258C10.6694 9.1509 10.7026 9.03151 10.7655 8.92737C10.8284 8.82322 10.9187 8.73828 11.0264 8.68176C11.1342 8.62524 11.2554 8.59928 11.3768 8.60671C11.4983 8.61414 11.6154 8.65467 11.7154 8.72391L18.5441 13.4519C18.6327 13.5133 18.705 13.5952 18.755 13.6906C18.805 13.786 18.8311 13.8922 18.8311 13.9999C18.8311 14.1077 18.805 14.2138 18.755 14.3092C18.705 14.4047 18.6327 14.4866 18.5441 14.5479Z"
+											fill="white"
+										/>
+									</svg>
+									Videoni ko‘rish
+								</button>
+								<button class="comment__item-btnPause2">
+									<svg
+										width="16"
+										height="16"
+										viewBox="0 0 16 16"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M8.00017 1.33301C6.68162 1.33301 5.39269 1.724 4.29636 2.45654C3.20004 3.18909 2.34555 4.23028 1.84097 5.44845C1.33638 6.66663 1.20436 8.00707 1.4616 9.30028C1.71883 10.5935 2.35377 11.7814 3.28612 12.7137C4.21847 13.6461 5.40636 14.281 6.69956 14.5382C7.99277 14.7955 9.33322 14.6635 10.5514 14.1589C11.7696 13.6543 12.8108 12.7998 13.5433 11.7035C14.2758 10.6071 14.6668 9.31822 14.6668 7.99967C14.6668 7.1242 14.4944 6.25729 14.1594 5.44845C13.8243 4.63961 13.3333 3.90469 12.7142 3.28563C12.0952 2.66657 11.3602 2.17551 10.5514 1.84048C9.74255 1.50545 8.87565 1.33301 8.00017 1.33301V1.33301ZM7.3335 10.6663H6.00017V5.33301H7.3335V10.6663ZM10.0002 10.6663H8.66683V5.33301H10.0002V10.6663Z"
+											fill="white"
+										/>
+									</svg>
+								</button>
+								<video
+									class="comment__item-video2"
+									src="./videos/second-video.mp4"
+									width="224"
+									height="396"
+								></video>
+								<div class="comment__item-textwrapper">
+									<span class="comment__item-date">25.01.2023</span>
+									<span class="comment__item-text">SMM-menejer</span>
+									<h3 class="comment__item-title">Abdumannof Tursunov</h3>
+								</div>
+							</li>
+							<li class="comment__item">
+								<button class="comment__item-btn3">
+									<svg
+										width="29"
+										height="28"
+										viewBox="0 0 29 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<rect
+											x="0.75"
+											width="28"
+											height="28"
+											rx="14"
+											fill="#BA8D5B"
+										/>
+										<path
+											d="M18.5441 14.5479L11.7154 19.2759C11.6154 19.3451 11.4983 19.3857 11.3768 19.3931C11.2554 19.4005 11.1342 19.3746 11.0264 19.3181C10.9187 19.2615 10.8284 19.1766 10.7655 19.0725C10.7026 18.9683 10.6694 18.8489 10.6694 18.7272V9.27258C10.6694 9.1509 10.7026 9.03151 10.7655 8.92737C10.8284 8.82322 10.9187 8.73828 11.0264 8.68176C11.1342 8.62524 11.2554 8.59928 11.3768 8.60671C11.4983 8.61414 11.6154 8.65467 11.7154 8.72391L18.5441 13.4519C18.6327 13.5133 18.705 13.5952 18.755 13.6906C18.805 13.786 18.8311 13.8922 18.8311 13.9999C18.8311 14.1077 18.805 14.2138 18.755 14.3092C18.705 14.4047 18.6327 14.4866 18.5441 14.5479Z"
+											fill="white"
+										/>
+									</svg>
+									Videoni ko‘rish
+								</button>
+								<button class="comment__item-btnPause3">
+									<svg
+										width="16"
+										height="16"
+										viewBox="0 0 16 16"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M8.00017 1.33301C6.68162 1.33301 5.39269 1.724 4.29636 2.45654C3.20004 3.18909 2.34555 4.23028 1.84097 5.44845C1.33638 6.66663 1.20436 8.00707 1.4616 9.30028C1.71883 10.5935 2.35377 11.7814 3.28612 12.7137C4.21847 13.6461 5.40636 14.281 6.69956 14.5382C7.99277 14.7955 9.33322 14.6635 10.5514 14.1589C11.7696 13.6543 12.8108 12.7998 13.5433 11.7035C14.2758 10.6071 14.6668 9.31822 14.6668 7.99967C14.6668 7.1242 14.4944 6.25729 14.1594 5.44845C13.8243 4.63961 13.3333 3.90469 12.7142 3.28563C12.0952 2.66657 11.3602 2.17551 10.5514 1.84048C9.74255 1.50545 8.87565 1.33301 8.00017 1.33301V1.33301ZM7.3335 10.6663H6.00017V5.33301H7.3335V10.6663ZM10.0002 10.6663H8.66683V5.33301H10.0002V10.6663Z"
+											fill="white"
+										/>
+									</svg>
+								</button>
+								<video
+									class="comment__item-video3"
+									src="./videos/third-video.mp4"
+									width="224"
+									height="396"
+								></video>
+								<div class="comment__item-textwrapper">
+									<span class="comment__item-date">25.01.2023</span>
+									<span class="comment__item-text">SMM-menejer</span>
+									<h3 class="comment__item-title">Abdumannof Tursunov</h3>
+								</div>
+							</li>
+							<li class="comment__item">
+								<button class="comment__item-btn4">
+									<svg
+										width="29"
+										height="28"
+										viewBox="0 0 29 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<rect
+											x="0.75"
+											width="28"
+											height="28"
+											rx="14"
+											fill="#BA8D5B"
+										/>
+										<path
+											d="M18.5441 14.5479L11.7154 19.2759C11.6154 19.3451 11.4983 19.3857 11.3768 19.3931C11.2554 19.4005 11.1342 19.3746 11.0264 19.3181C10.9187 19.2615 10.8284 19.1766 10.7655 19.0725C10.7026 18.9683 10.6694 18.8489 10.6694 18.7272V9.27258C10.6694 9.1509 10.7026 9.03151 10.7655 8.92737C10.8284 8.82322 10.9187 8.73828 11.0264 8.68176C11.1342 8.62524 11.2554 8.59928 11.3768 8.60671C11.4983 8.61414 11.6154 8.65467 11.7154 8.72391L18.5441 13.4519C18.6327 13.5133 18.705 13.5952 18.755 13.6906C18.805 13.786 18.8311 13.8922 18.8311 13.9999C18.8311 14.1077 18.805 14.2138 18.755 14.3092C18.705 14.4047 18.6327 14.4866 18.5441 14.5479Z"
+											fill="white"
+										/>
+									</svg>
+									Videoni ko‘rish
+								</button>
+								<button class="comment__item-btnPause4">
+									<svg
+										width="16"
+										height="16"
+										viewBox="0 0 16 16"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M8.00017 1.33301C6.68162 1.33301 5.39269 1.724 4.29636 2.45654C3.20004 3.18909 2.34555 4.23028 1.84097 5.44845C1.33638 6.66663 1.20436 8.00707 1.4616 9.30028C1.71883 10.5935 2.35377 11.7814 3.28612 12.7137C4.21847 13.6461 5.40636 14.281 6.69956 14.5382C7.99277 14.7955 9.33322 14.6635 10.5514 14.1589C11.7696 13.6543 12.8108 12.7998 13.5433 11.7035C14.2758 10.6071 14.6668 9.31822 14.6668 7.99967C14.6668 7.1242 14.4944 6.25729 14.1594 5.44845C13.8243 4.63961 13.3333 3.90469 12.7142 3.28563C12.0952 2.66657 11.3602 2.17551 10.5514 1.84048C9.74255 1.50545 8.87565 1.33301 8.00017 1.33301V1.33301ZM7.3335 10.6663H6.00017V5.33301H7.3335V10.6663ZM10.0002 10.6663H8.66683V5.33301H10.0002V10.6663Z"
+											fill="white"
+										/>
+									</svg>
+								</button>
+								<video
+									class="comment__item-video4"
+									src="./videos/fourth-video.mp4"
+									width="224"
+									height="396"
+								></video>
+								<div class="comment__item-textwrapper">
+									<span class="comment__item-date">25.01.2023</span>
+									<span class="comment__item-text">SMM-menejer</span>
+									<h3 class="comment__item-title">Abdumannof Tursunov</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- main end  -->
+
+		<!-- footer start  -->
+		<footer></footer>
+		<!-- footer end  -->
+		<script src="./js/main.js"></script>
+		<script src="./js/slick.js"></script>
+		<script src="./slick/jquery.min.js"></script>
+		<script src="./slick/slick.min.js"></script>
+	</body>
+</html>
 <body>
   <!-- header start  -->
   <header class="header">

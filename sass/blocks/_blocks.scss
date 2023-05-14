@@ -1,3 +1,16 @@
+
+@import 'visually-hidden';
+@import 'container';
+@import 'header';
+@import './advantage';
+@import './courses';
+@import './work';
+@import './comment';
+
+// kurslar page start
+@import './kurslar';
+// kurslar page end
+
 @import "visually-hidden";
 @import "container";
 @import "header";
@@ -13,3 +26,4 @@
 //blog page start
 @import "./blog";
 //blog page end
+
