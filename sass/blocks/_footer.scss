@@ -12,7 +12,9 @@ footer {
     align-items: flex-start;
     gap: 47px;
 }
-
+.dark .footer__social__title {
+    color: #fff;
+}
 .footer__logoInfo {
     display: flex;
     flex-direction: column;
@@ -73,11 +75,11 @@ footer {
 .footer__lists {
     margin: 0 191px 0 0;
     padding: 0;
-
+    
     &:nth-child(2) {
         margin-right: 131px;
     }
-
+    
     &:nth-child(3) {
         margin-right: 0;
     }
@@ -107,7 +109,7 @@ footer {
     letter-spacing: -0.28px;
     color: #607987;
     transition: 0.3s ease;
-
+    
     &:hover {
         opacity: 0.8;
     }
@@ -120,7 +122,7 @@ footer {
 .footer__bottom {
     display: flex;
     align-items: flex-start;
-    gap: 76px;
+    gap: 50px;
     margin-top: 33px;
 }
 
@@ -163,6 +165,9 @@ footer {
 .dark .footer__bot-social {
     color: #fff;
 }
+.dark .connect__title {
+    color: #fff;
+}
 
 .footer__social__title,
 .connect__title {
@@ -184,8 +189,19 @@ footer {
 .footer__acordion {
     display: none;
 }
-
-
+.connect__phone{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.36px;
+    color: #607987;
+    text-decoration: none;
+    margin-top: 17px;
+}
+.dark .connect__phone{
+    color: #fff;
+}
 .social__icons {
     padding: 10px;
     background: #BD8F5B;
@@ -193,20 +209,20 @@ footer {
     width: 40px;
     height: 40px;
     transition: all 0.3s ease;
-
-
+    
+    
     &:hover:nth-child(1) {
         background: #48C95F;
     }
-
+    
     &:hover:nth-child(2) {
         background: #0B84EE;
     }
-
+    
     &:hover:nth-child(3) {
         background: #EE2A7B;
     }
-
+    
     &:hover:nth-child(4) {
         background: #55ACE3;
     }
@@ -216,36 +232,36 @@ footer {
     .footer__logoInfo {
         margin-bottom: 0;
     }
-
+    
     .footer__imgLink {
         margin-bottom: 22px;
     }
-
+    
     .footer__right {
         width: 100%;
         padding: 30px 0 0 0;
         border-top: 1px solid #D6D1C9FF;
     }
-
+    
     .footer__inner {
         flex-direction: column;
     }
-
+    
     .footer__text {
         margin-bottom: 42px !important;
     }
-
+    
     .footer__top {
         flex-direction: column;
         display: none;
     }
-
+    
     .footer__bottom {
         flex-direction: column;
         gap: 32px;
         margin: 0;
     }
-
+    
     .footer__bot-social {
         flex-direction: column;
         gap: 30px;

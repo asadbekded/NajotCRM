@@ -31,16 +31,19 @@
 }
 
 .comment__list {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0px auto !important;
+    text-align: center !important;
+    padding: 0px;
     list-style-type: none;
+    height: 100%;
 }
 
 .comment__item {
     position: relative;
-    width: 224px;
+    width: 280px;
     height: 396px;
     border-radius: 22px;
 }
@@ -160,15 +163,9 @@
     .comment__list {
         text-align: center !important;
     }
-
+    
     .comment__item {
         margin: 0px auto !important;
     }
-
-    // .slick-slide,
-    // .slick-current,
-    // .slick-active {
-    //     // width: 285px !important;
-    //     margin: 0 auto !important;
-    // }
+    
 }

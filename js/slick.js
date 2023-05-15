@@ -3,7 +3,8 @@ $(function () {
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 500,
+		autoplaySpeed: 1000,
+		arrows: false,
 		responsive: [
 			{
 				breakpoint: 1024,
